@@ -12,6 +12,7 @@
 export default {
   name: 'EventCard',
   props: {
+    // eslint-disable-next-line vue/require-default-prop
     event: Object
   },
   computed: {
